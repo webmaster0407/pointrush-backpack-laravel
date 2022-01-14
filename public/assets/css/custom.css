@@ -1,0 +1,85 @@
+.filter-option-inner-inner {
+    color: black !important;
+}
+
+#data-table-custom .actions i.fas.fa-edit,
+#logs-table-custom .actions i.fas.fa-edit {
+  color: black;
+}
+
+#data-table-custom .actions i.fas.fa-fill-drip,
+#logs-table-custom .actions i.fas.fa-fill-drip {
+  color: #0469b9;
+}
+
+.wcolpick_hsb_h {
+    display: none !important;
+}
+
+.wcolpick_hsb_s {
+    display: none !important;
+}
+
+.wcolpick_hsb_b {
+    display: none !important;
+}
+
+.wcolpick_alpha_field {
+    display: none !important;
+}
+
+.wcolpick_alpha {
+    display: none !important;
+}
+
+.wcolpick_submit {
+    display: none !important;
+}
+
+.wcolpick_current_color {
+    display: none !important;
+}
+
+.wcolpick_colors_underlay {
+    display: none !important;
+}
+
+.wcolpick_new_color {
+    height: 100% !important;
+}
+
+@media (max-width: 767px) {
+    #map {
+        height: 250px;
+    }
+
+    .container-map {
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+}
+
+@media (min-width: 767px) {
+    #map {
+        min-height: 500px;
+        height: 50%;
+    }
+    .bedge-wdget-container{
+        width: 100%;
+    }
+     ::-webkit-scrollbar {
+        width: 15px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+     ::-webkit-scrollbar-thumb {
+        background-color: #cbd5e0;
+        border-radius: 20px;
+        border: 3px solid transparent;
+        background-clip: content-box;
+    }
+     ::-webkit-scrollbar-thumb:hover {
+        background-color: #a0aec0;
+    }
+}
